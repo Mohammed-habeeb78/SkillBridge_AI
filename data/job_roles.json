@@ -1,0 +1,212 @@
+{
+  "roles": [
+    {
+      "id": "software_developer",
+      "title": "Software Developer",
+      "description": "Designs, develops, tests, and maintains software applications. Works across the full software development lifecycle.",
+      "required_skills": [
+        {"skill": "python", "weight": 0.8, "mandatory": true, "reason": "Primary scripting and backend language for most modern software teams."},
+        {"skill": "data_structures", "weight": 0.9, "mandatory": true, "reason": "Fundamental to writing efficient algorithms and solving technical interview problems."},
+        {"skill": "algorithms", "weight": 0.85, "mandatory": true, "reason": "Core CS concept tested in interviews and required for performance-critical code."},
+        {"skill": "object_oriented_programming", "weight": 0.85, "mandatory": true, "reason": "Fundamental design paradigm used in most enterprise software."},
+        {"skill": "git", "weight": 0.8, "mandatory": true, "reason": "Standard version-control system used in virtually every software team."},
+        {"skill": "sql", "weight": 0.7, "mandatory": true, "reason": "Required to interact with relational databases found in most applications."},
+        {"skill": "rest_api", "weight": 0.75, "mandatory": true, "reason": "Service communication backbone for web and mobile backends."},
+        {"skill": "unit_testing", "weight": 0.7, "mandatory": true, "reason": "Quality gate expected in professional software development workflows."},
+        {"skill": "linux_basics", "weight": 0.65, "mandatory": false, "reason": "Most servers run Linux; basic command-line proficiency is expected."},
+        {"skill": "docker", "weight": 0.6, "mandatory": false, "reason": "Containerization is increasingly standard for deployment and local dev."},
+        {"skill": "java", "weight": 0.6, "mandatory": false, "reason": "Widely used enterprise language; often an alternative to Python."},
+        {"skill": "design_patterns", "weight": 0.65, "mandatory": false, "reason": "Helps write maintainable, scalable code understood by other developers."},
+        {"skill": "agile_scrum", "weight": 0.55, "mandatory": false, "reason": "Most software teams operate within Agile sprints."},
+        {"skill": "ci_cd", "weight": 0.5, "mandatory": false, "reason": "Continuous integration pipelines automate testing and deployment."}
+      ],
+      "soft_skills": ["problem_solving", "communication", "teamwork", "attention_to_detail"],
+      "tools": ["git", "docker", "vscode", "jira", "postman"],
+      "experience_note": "Entry-level positions typically expect 1–2 personal or academic projects demonstrating core competencies."
+    },
+    {
+      "id": "data_analyst",
+      "title": "Data Analyst",
+      "description": "Collects, cleans, and analyzes data to provide actionable business insights using statistical methods and visualization tools.",
+      "required_skills": [
+        {"skill": "python", "weight": 0.8, "mandatory": true, "reason": "Standard language for data manipulation and analysis pipelines."},
+        {"skill": "sql", "weight": 0.9, "mandatory": true, "reason": "Most analytical queries run against relational databases; SQL proficiency is non-negotiable."},
+        {"skill": "pandas", "weight": 0.85, "mandatory": true, "reason": "Primary Python library for data wrangling and exploration."},
+        {"skill": "data_visualization", "weight": 0.8, "mandatory": true, "reason": "Communicating findings to stakeholders is a core analyst responsibility."},
+        {"skill": "statistics", "weight": 0.8, "mandatory": true, "reason": "Correct interpretation of data requires solid statistical foundations."},
+        {"skill": "excel", "weight": 0.7, "mandatory": true, "reason": "Widely used in business environments for quick analysis and reporting."},
+        {"skill": "numpy", "weight": 0.7, "mandatory": false, "reason": "Numerical computing backbone used with pandas for performance-heavy tasks."},
+        {"skill": "power_bi", "weight": 0.65, "mandatory": false, "reason": "Common enterprise BI tool used for dashboards and reporting."},
+        {"skill": "tableau", "weight": 0.6, "mandatory": false, "reason": "Alternative BI and visualization platform popular in many organizations."},
+        {"skill": "data_cleaning", "weight": 0.75, "mandatory": true, "reason": "Raw data is rarely clean; data quality work occupies a significant portion of analyst time."},
+        {"skill": "git", "weight": 0.55, "mandatory": false, "reason": "Version control for analysis scripts and notebooks."},
+        {"skill": "machine_learning_basics", "weight": 0.5, "mandatory": false, "reason": "Basic ML literacy helps analysts collaborate with data science teams."}
+      ],
+      "soft_skills": ["analytical_thinking", "communication", "storytelling_with_data", "attention_to_detail"],
+      "tools": ["excel", "power_bi", "tableau", "jupyter_notebook", "google_sheets"],
+      "experience_note": "Entry-level analysts benefit from portfolio projects demonstrating end-to-end analysis with real datasets."
+    },
+    {
+      "id": "data_scientist",
+      "title": "Data Scientist",
+      "description": "Develops statistical models and machine-learning solutions to extract insights and build predictive systems from large datasets.",
+      "required_skills": [
+        {"skill": "python", "weight": 0.9, "mandatory": true, "reason": "The dominant language in the data science ecosystem."},
+        {"skill": "machine_learning", "weight": 0.9, "mandatory": true, "reason": "Core technical competency; building and evaluating models is the primary role deliverable."},
+        {"skill": "statistics", "weight": 0.85, "mandatory": true, "reason": "Statistical reasoning underpins every modelling decision and result interpretation."},
+        {"skill": "sql", "weight": 0.8, "mandatory": true, "reason": "Data extraction from databases is a constant requirement."},
+        {"skill": "pandas", "weight": 0.85, "mandatory": true, "reason": "Essential for data preparation and feature engineering."},
+        {"skill": "numpy", "weight": 0.8, "mandatory": true, "reason": "Matrix and numerical operations are pervasive in ML pipelines."},
+        {"skill": "scikit_learn", "weight": 0.85, "mandatory": true, "reason": "Standard ML library for classical models, evaluation, and pipelines."},
+        {"skill": "data_visualization", "weight": 0.75, "mandatory": true, "reason": "Results must be communicated clearly to technical and non-technical audiences."},
+        {"skill": "feature_engineering", "weight": 0.8, "mandatory": true, "reason": "Model performance depends heavily on the quality of engineered features."},
+        {"skill": "deep_learning", "weight": 0.6, "mandatory": false, "reason": "Increasingly expected but not always required at entry level."},
+        {"skill": "natural_language_processing", "weight": 0.55, "mandatory": false, "reason": "Relevant for text-heavy domains; a distinguishing skill."},
+        {"skill": "git", "weight": 0.7, "mandatory": false, "reason": "Experiment tracking and code versioning are professional standards."},
+        {"skill": "jupyter_notebook", "weight": 0.75, "mandatory": false, "reason": "Primary interactive environment for exploration and reporting."},
+        {"skill": "probability", "weight": 0.8, "mandatory": true, "reason": "Probability theory is foundational to understanding and building probabilistic models."}
+      ],
+      "soft_skills": ["analytical_thinking", "communication", "problem_solving", "curiosity"],
+      "tools": ["jupyter_notebook", "scikit_learn", "tensorflow", "pytorch", "mlflow"],
+      "experience_note": "Entry-level roles expect demonstrable project work involving model training, evaluation, and interpretation."
+    },
+    {
+      "id": "ml_engineer",
+      "title": "Machine Learning Engineer",
+      "description": "Builds, deploys, and maintains machine-learning pipelines and systems in production environments.",
+      "required_skills": [
+        {"skill": "python", "weight": 0.9, "mandatory": true, "reason": "Primary language for ML engineering workflows."},
+        {"skill": "machine_learning", "weight": 0.9, "mandatory": true, "reason": "Foundational knowledge of algorithms and model lifecycle is essential."},
+        {"skill": "scikit_learn", "weight": 0.85, "mandatory": true, "reason": "Standard toolkit for classical ML models and pipelines."},
+        {"skill": "deep_learning", "weight": 0.75, "mandatory": true, "reason": "Modern production systems frequently use neural networks."},
+        {"skill": "data_structures", "weight": 0.8, "mandatory": true, "reason": "Writing efficient ML pipeline code requires strong CS fundamentals."},
+        {"skill": "sql", "weight": 0.75, "mandatory": true, "reason": "Data retrieval and feature extraction from databases."},
+        {"skill": "docker", "weight": 0.75, "mandatory": true, "reason": "Containerizing models for reproducible, portable deployment."},
+        {"skill": "git", "weight": 0.75, "mandatory": true, "reason": "Code and experiment versioning is non-negotiable in team environments."},
+        {"skill": "rest_api", "weight": 0.7, "mandatory": true, "reason": "ML models are typically served as API endpoints."},
+        {"skill": "ci_cd", "weight": 0.65, "mandatory": false, "reason": "ML pipelines are increasingly integrated into continuous delivery workflows."},
+        {"skill": "cloud_basics", "weight": 0.65, "mandatory": false, "reason": "Most ML systems are deployed on cloud infrastructure."},
+        {"skill": "feature_engineering", "weight": 0.8, "mandatory": true, "reason": "Feature quality directly drives model performance."},
+        {"skill": "model_evaluation", "weight": 0.85, "mandatory": true, "reason": "Selecting appropriate metrics and evaluating model quality is a core responsibility."},
+        {"skill": "pandas", "weight": 0.8, "mandatory": true, "reason": "Data preparation and pipeline inputs rely heavily on pandas."},
+        {"skill": "numpy", "weight": 0.8, "mandatory": true, "reason": "Numerical operations throughout ML pipelines."}
+      ],
+      "soft_skills": ["problem_solving", "attention_to_detail", "communication", "systems_thinking"],
+      "tools": ["docker", "mlflow", "airflow", "kubernetes", "tensorboard"],
+      "experience_note": "Strong portfolio projects showing end-to-end pipelines including deployment significantly improve candidacy."
+    },
+    {
+      "id": "frontend_developer",
+      "title": "Frontend Developer",
+      "description": "Builds the visual and interactive components of web applications using HTML, CSS, and JavaScript frameworks.",
+      "required_skills": [
+        {"skill": "html", "weight": 0.9, "mandatory": true, "reason": "The structural language of every web page."},
+        {"skill": "css", "weight": 0.9, "mandatory": true, "reason": "Controls visual presentation and responsive layout."},
+        {"skill": "javascript", "weight": 0.9, "mandatory": true, "reason": "The only natively supported browser scripting language; essential for all interactivity."},
+        {"skill": "react", "weight": 0.8, "mandatory": true, "reason": "The most in-demand frontend framework; used across startups and enterprises."},
+        {"skill": "responsive_design", "weight": 0.8, "mandatory": true, "reason": "Applications must function correctly on mobile and desktop devices."},
+        {"skill": "git", "weight": 0.75, "mandatory": true, "reason": "Version control for all frontend codebases."},
+        {"skill": "rest_api", "weight": 0.75, "mandatory": true, "reason": "Frontend applications integrate with backend services via APIs."},
+        {"skill": "typescript", "weight": 0.65, "mandatory": false, "reason": "Increasingly required for large codebases; improves code reliability."},
+        {"skill": "css_frameworks", "weight": 0.65, "mandatory": false, "reason": "Frameworks like Tailwind or Bootstrap accelerate UI development."},
+        {"skill": "browser_dev_tools", "weight": 0.7, "mandatory": false, "reason": "Debugging and performance profiling in the browser."},
+        {"skill": "unit_testing", "weight": 0.6, "mandatory": false, "reason": "Frontend testing with tools like Jest improves code quality."},
+        {"skill": "accessibility", "weight": 0.55, "mandatory": false, "reason": "WCAG compliance is increasingly required by clients and regulators."}
+      ],
+      "soft_skills": ["creativity", "attention_to_detail", "communication", "user_empathy"],
+      "tools": ["vscode", "figma", "chrome_devtools", "webpack", "npm"],
+      "experience_note": "A portfolio of live or deployed projects is essential for frontend roles."
+    },
+    {
+      "id": "backend_developer",
+      "title": "Backend Developer",
+      "description": "Designs and builds server-side logic, APIs, and database interactions that power web and mobile applications.",
+      "required_skills": [
+        {"skill": "python", "weight": 0.8, "mandatory": true, "reason": "Common backend language with frameworks like Django and Flask."},
+        {"skill": "sql", "weight": 0.85, "mandatory": true, "reason": "Relational databases are central to most backend systems."},
+        {"skill": "rest_api", "weight": 0.9, "mandatory": true, "reason": "API design and implementation is the core backend deliverable."},
+        {"skill": "object_oriented_programming", "weight": 0.8, "mandatory": true, "reason": "Backend frameworks and service design rely on OOP principles."},
+        {"skill": "git", "weight": 0.75, "mandatory": true, "reason": "Version control in team workflows."},
+        {"skill": "authentication_authorization", "weight": 0.75, "mandatory": true, "reason": "Securing endpoints and managing user sessions is a fundamental backend responsibility."},
+        {"skill": "data_structures", "weight": 0.8, "mandatory": true, "reason": "Efficient backend code requires strong algorithmic foundations."},
+        {"skill": "docker", "weight": 0.65, "mandatory": false, "reason": "Containerization for reproducible development and deployment environments."},
+        {"skill": "linux_basics", "weight": 0.65, "mandatory": false, "reason": "Backend services predominantly run on Linux servers."},
+        {"skill": "nosql", "weight": 0.55, "mandatory": false, "reason": "NoSQL databases like MongoDB are commonly used alongside relational stores."},
+        {"skill": "caching", "weight": 0.55, "mandatory": false, "reason": "Redis and similar tools are used to improve API response performance."},
+        {"skill": "unit_testing", "weight": 0.7, "mandatory": true, "reason": "Backend logic must be tested to ensure correctness and prevent regressions."},
+        {"skill": "ci_cd", "weight": 0.55, "mandatory": false, "reason": "Automated pipelines for testing and deploying backend services."}
+      ],
+      "soft_skills": ["problem_solving", "attention_to_detail", "communication", "systems_thinking"],
+      "tools": ["postman", "docker", "git", "postgresql", "redis"],
+      "experience_note": "Projects demonstrating end-to-end API development with authentication and database integration are highly valued."
+    },
+    {
+      "id": "fullstack_developer",
+      "title": "Full-Stack Developer",
+      "description": "Develops both client-side and server-side components, owning features end-to-end from database to user interface.",
+      "required_skills": [
+        {"skill": "html", "weight": 0.85, "mandatory": true, "reason": "Required for all frontend work."},
+        {"skill": "css", "weight": 0.85, "mandatory": true, "reason": "Styling and layout for web interfaces."},
+        {"skill": "javascript", "weight": 0.9, "mandatory": true, "reason": "Used on both frontend (browser) and backend (Node.js)."},
+        {"skill": "python", "weight": 0.75, "mandatory": false, "reason": "Common backend language; interchangeable with Node.js in many stacks."},
+        {"skill": "react", "weight": 0.75, "mandatory": false, "reason": "Leading frontend framework; expected in many full-stack roles."},
+        {"skill": "rest_api", "weight": 0.85, "mandatory": true, "reason": "Full-stack developers must design and consume APIs."},
+        {"skill": "sql", "weight": 0.8, "mandatory": true, "reason": "Database interaction is a fundamental full-stack responsibility."},
+        {"skill": "git", "weight": 0.8, "mandatory": true, "reason": "Version control is essential across the whole stack."},
+        {"skill": "object_oriented_programming", "weight": 0.8, "mandatory": true, "reason": "Backend architecture relies on OOP."},
+        {"skill": "responsive_design", "weight": 0.75, "mandatory": true, "reason": "Full-stack developers own frontend quality including responsiveness."},
+        {"skill": "docker", "weight": 0.6, "mandatory": false, "reason": "Containerization for local and production environments."},
+        {"skill": "authentication_authorization", "weight": 0.7, "mandatory": true, "reason": "Full-stack developers implement end-to-end user authentication."},
+        {"skill": "unit_testing", "weight": 0.65, "mandatory": false, "reason": "Testing across frontend and backend layers."},
+        {"skill": "nosql", "weight": 0.5, "mandatory": false, "reason": "MongoDB or Firebase used in many full-stack stacks."}
+      ],
+      "soft_skills": ["problem_solving", "communication", "adaptability", "ownership"],
+      "tools": ["git", "docker", "postman", "vscode", "npm"],
+      "experience_note": "End-to-end projects with deployed frontend and backend components are the most compelling portfolio items."
+    },
+    {
+      "id": "cybersecurity_analyst",
+      "title": "Cybersecurity Analyst",
+      "description": "Monitors, detects, and responds to security threats, and implements controls to protect organizational systems and data.",
+      "required_skills": [
+        {"skill": "networking_fundamentals", "weight": 0.9, "mandatory": true, "reason": "Understanding protocols, ports, and traffic patterns is essential for threat detection."},
+        {"skill": "linux_basics", "weight": 0.85, "mandatory": true, "reason": "Security tools and server environments predominantly run on Linux."},
+        {"skill": "security_fundamentals", "weight": 0.9, "mandatory": true, "reason": "CIA triad, threat modeling, and security principles are the foundation of the role."},
+        {"skill": "python", "weight": 0.7, "mandatory": false, "reason": "Scripting for automation of security tasks and tool development."},
+        {"skill": "siem_tools", "weight": 0.7, "mandatory": false, "reason": "SIEM platforms are used for log analysis and incident detection."},
+        {"skill": "vulnerability_assessment", "weight": 0.8, "mandatory": true, "reason": "Identifying and prioritizing vulnerabilities is a primary analyst responsibility."},
+        {"skill": "incident_response", "weight": 0.75, "mandatory": true, "reason": "Analysts must respond to and document security incidents."},
+        {"skill": "ethical_hacking_basics", "weight": 0.65, "mandatory": false, "reason": "Offensive security knowledge strengthens defensive posture."},
+        {"skill": "cryptography_basics", "weight": 0.6, "mandatory": false, "reason": "Understanding encryption underpins secure communications design."},
+        {"skill": "firewall_configuration", "weight": 0.7, "mandatory": false, "reason": "Configuring and auditing network security controls."},
+        {"skill": "sql", "weight": 0.55, "mandatory": false, "reason": "Understanding SQL injection and database security."},
+        {"skill": "git", "weight": 0.5, "mandatory": false, "reason": "Managing security scripts and documentation."}
+      ],
+      "soft_skills": ["analytical_thinking", "attention_to_detail", "problem_solving", "ethical_judgment"],
+      "tools": ["wireshark", "nmap", "metasploit_basics", "splunk", "burp_suite"],
+      "experience_note": "CTF (Capture The Flag) participation and home lab projects demonstrate practical security skills effectively."
+    },
+    {
+      "id": "cloud_engineer",
+      "title": "Cloud Engineer",
+      "description": "Designs, builds, and manages cloud infrastructure and services, enabling scalable and reliable application deployment.",
+      "required_skills": [
+        {"skill": "cloud_basics", "weight": 0.9, "mandatory": true, "reason": "Core cloud concepts, IaaS/PaaS/SaaS, and service models are foundational."},
+        {"skill": "linux_basics", "weight": 0.85, "mandatory": true, "reason": "Cloud compute instances predominantly run Linux."},
+        {"skill": "networking_fundamentals", "weight": 0.8, "mandatory": true, "reason": "VPCs, subnets, load balancers, and DNS are cloud networking essentials."},
+        {"skill": "docker", "weight": 0.8, "mandatory": true, "reason": "Containerization is the standard unit of cloud deployment."},
+        {"skill": "git", "weight": 0.75, "mandatory": true, "reason": "Infrastructure-as-code and CI/CD pipelines require version control."},
+        {"skill": "python", "weight": 0.7, "mandatory": false, "reason": "Scripting for automation of infrastructure tasks."},
+        {"skill": "ci_cd", "weight": 0.75, "mandatory": true, "reason": "Automated delivery pipelines are central to cloud engineering practice."},
+        {"skill": "infrastructure_as_code", "weight": 0.75, "mandatory": false, "reason": "Terraform or CloudFormation for managing infrastructure programmatically."},
+        {"skill": "sql", "weight": 0.6, "mandatory": false, "reason": "Managed database services require SQL knowledge."},
+        {"skill": "security_fundamentals", "weight": 0.7, "mandatory": false, "reason": "IAM, least-privilege, and encryption are required cloud practices."},
+        {"skill": "kubernetes", "weight": 0.65, "mandatory": false, "reason": "Container orchestration for production workloads."},
+        {"skill": "monitoring_observability", "weight": 0.65, "mandatory": false, "reason": "Metrics, logging, and alerting are essential for production reliability."}
+      ],
+      "soft_skills": ["problem_solving", "systems_thinking", "communication", "ownership"],
+      "tools": ["terraform", "docker", "kubernetes", "aws_cli", "github_actions"],
+      "experience_note": "AWS/Azure/GCP free-tier projects and cloud certification study projects make strong portfolio items."
+    }
+  ]
+}

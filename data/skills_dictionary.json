@@ -1,0 +1,311 @@
+{
+  "version": "1.0",
+  "description": "Canonical skill identifiers with all known aliases. Used for normalization during resume parsing and skill extraction.",
+  "skills": {
+    "python": {
+      "label": "Python",
+      "category": "programming_language",
+      "aliases": ["python3", "python 3", "py", "python programming", "python scripting", "core python", "python development", "cpython"]
+    },
+    "java": {
+      "label": "Java",
+      "category": "programming_language",
+      "aliases": ["java programming", "core java", "java se", "java ee", "j2ee", "java development"]
+    },
+    "javascript": {
+      "label": "JavaScript",
+      "category": "programming_language",
+      "aliases": ["js", "java script", "javascript es6", "es6", "es2015", "ecmascript", "vanilla js", "node js", "nodejs", "node.js"]
+    },
+    "typescript": {
+      "label": "TypeScript",
+      "category": "programming_language",
+      "aliases": ["ts", "type script"]
+    },
+    "c": {
+      "label": "C",
+      "category": "programming_language",
+      "aliases": ["c programming", "c language"]
+    },
+    "cpp": {
+      "label": "C++",
+      "category": "programming_language",
+      "aliases": ["c++", "cplusplus", "c plus plus", "cpp programming"]
+    },
+    "csharp": {
+      "label": "C#",
+      "category": "programming_language",
+      "aliases": ["c#", "csharp", "c sharp", ".net c#", "dotnet c#"]
+    },
+    "r": {
+      "label": "R",
+      "category": "programming_language",
+      "aliases": ["r programming", "r language", "rstudio", "r statistical"]
+    },
+    "sql": {
+      "label": "SQL",
+      "category": "database",
+      "aliases": ["structured query language", "mysql", "postgresql", "postgres", "sqlite", "mssql", "sql server", "oracle sql", "t-sql", "pl-sql", "plsql", "database queries", "relational database"]
+    },
+    "nosql": {
+      "label": "NoSQL",
+      "category": "database",
+      "aliases": ["mongodb", "mongo", "cassandra", "couchdb", "redis", "dynamodb", "firebase firestore", "nosql databases"]
+    },
+    "html": {
+      "label": "HTML",
+      "category": "web_frontend",
+      "aliases": ["html5", "hyper text markup language", "markup language", "html/css"]
+    },
+    "css": {
+      "label": "CSS",
+      "category": "web_frontend",
+      "aliases": ["css3", "cascading style sheets", "stylesheets", "html/css", "css styling"]
+    },
+    "react": {
+      "label": "React",
+      "category": "web_frontend",
+      "aliases": ["reactjs", "react.js", "react js", "react framework", "react hooks", "react redux"]
+    },
+    "angular": {
+      "label": "Angular",
+      "category": "web_frontend",
+      "aliases": ["angularjs", "angular js", "angular framework", "angular 2+"]
+    },
+    "vue": {
+      "label": "Vue.js",
+      "category": "web_frontend",
+      "aliases": ["vuejs", "vue.js", "vue js", "vue framework"]
+    },
+    "css_frameworks": {
+      "label": "CSS Frameworks",
+      "category": "web_frontend",
+      "aliases": ["bootstrap", "tailwind", "tailwindcss", "tailwind css", "material ui", "chakra ui", "bulma", "foundation css"]
+    },
+    "responsive_design": {
+      "label": "Responsive Design",
+      "category": "web_frontend",
+      "aliases": ["responsive web design", "mobile-first design", "rwd", "media queries", "cross-browser compatibility"]
+    },
+    "pandas": {
+      "label": "Pandas",
+      "category": "data_science",
+      "aliases": ["pandas library", "python pandas", "pd", "data frames", "dataframes"]
+    },
+    "numpy": {
+      "label": "NumPy",
+      "category": "data_science",
+      "aliases": ["numpy library", "python numpy", "np", "numerical python"]
+    },
+    "scikit_learn": {
+      "label": "Scikit-learn",
+      "category": "machine_learning",
+      "aliases": ["sklearn", "scikit learn", "scikit-learn library", "sklearn library", "sk-learn"]
+    },
+    "machine_learning": {
+      "label": "Machine Learning",
+      "category": "machine_learning",
+      "aliases": ["ml", "machine learning algorithms", "supervised learning", "unsupervised learning", "applied ml", "predictive modeling", "classification", "regression", "clustering"]
+    },
+    "deep_learning": {
+      "label": "Deep Learning",
+      "category": "machine_learning",
+      "aliases": ["dl", "neural networks", "artificial neural networks", "ann", "cnn", "rnn", "lstm", "tensorflow", "keras", "pytorch", "torch"]
+    },
+    "natural_language_processing": {
+      "label": "Natural Language Processing",
+      "category": "machine_learning",
+      "aliases": ["nlp", "text mining", "text analysis", "spacy", "nltk", "hugging face", "transformers", "bert", "language models"]
+    },
+    "data_visualization": {
+      "label": "Data Visualization",
+      "category": "data_science",
+      "aliases": ["matplotlib", "seaborn", "plotly", "ggplot", "data charts", "charts", "visualization", "tableau", "power bi", "dashboards", "bokeh"]
+    },
+    "statistics": {
+      "label": "Statistics",
+      "category": "data_science",
+      "aliases": ["statistical analysis", "descriptive statistics", "inferential statistics", "hypothesis testing", "statistical modeling", "stats"]
+    },
+    "probability": {
+      "label": "Probability",
+      "category": "data_science",
+      "aliases": ["probability theory", "probability and statistics", "bayesian", "probability distributions"]
+    },
+    "feature_engineering": {
+      "label": "Feature Engineering",
+      "category": "machine_learning",
+      "aliases": ["feature selection", "feature extraction", "data preprocessing", "data preparation", "data transformation"]
+    },
+    "model_evaluation": {
+      "label": "Model Evaluation",
+      "category": "machine_learning",
+      "aliases": ["model validation", "cross validation", "accuracy", "f1 score", "roc auc", "confusion matrix", "model metrics", "evaluation metrics"]
+    },
+    "data_cleaning": {
+      "label": "Data Cleaning",
+      "category": "data_science",
+      "aliases": ["data wrangling", "data preprocessing", "data preparation", "etl", "data quality", "missing values handling", "outlier detection"]
+    },
+    "excel": {
+      "label": "Microsoft Excel",
+      "category": "productivity",
+      "aliases": ["ms excel", "excel spreadsheets", "excel formulas", "vlookup", "pivot tables", "microsoft excel", "spreadsheets"]
+    },
+    "power_bi": {
+      "label": "Power BI",
+      "category": "data_visualization_tool",
+      "aliases": ["powerbi", "microsoft power bi", "power bi desktop", "power bi reports"]
+    },
+    "tableau": {
+      "label": "Tableau",
+      "category": "data_visualization_tool",
+      "aliases": ["tableau desktop", "tableau public", "tableau software"]
+    },
+    "git": {
+      "label": "Git",
+      "category": "devops",
+      "aliases": ["github", "gitlab", "bitbucket", "version control", "git version control", "source control", "git/github", "git & github"]
+    },
+    "docker": {
+      "label": "Docker",
+      "category": "devops",
+      "aliases": ["containerization", "docker containers", "docker compose", "dockerfile", "containers"]
+    },
+    "kubernetes": {
+      "label": "Kubernetes",
+      "category": "devops",
+      "aliases": ["k8s", "container orchestration", "kubernetes cluster", "kubectl"]
+    },
+    "ci_cd": {
+      "label": "CI/CD",
+      "category": "devops",
+      "aliases": ["continuous integration", "continuous deployment", "continuous delivery", "github actions", "jenkins", "gitlab ci", "travis ci", "circleci", "ci/cd pipelines", "devops pipeline"]
+    },
+    "infrastructure_as_code": {
+      "label": "Infrastructure as Code",
+      "category": "devops",
+      "aliases": ["iac", "terraform", "cloudformation", "ansible", "pulumi", "infrastructure automation"]
+    },
+    "cloud_basics": {
+      "label": "Cloud Computing",
+      "category": "cloud",
+      "aliases": ["aws", "amazon web services", "azure", "microsoft azure", "gcp", "google cloud", "google cloud platform", "cloud services", "cloud infrastructure", "cloud computing", "iaas", "paas", "saas", "serverless", "lambda"]
+    },
+    "linux_basics": {
+      "label": "Linux",
+      "category": "operating_system",
+      "aliases": ["linux os", "ubuntu", "centos", "debian", "unix", "bash", "bash scripting", "shell scripting", "command line", "terminal", "cli", "linux command line"]
+    },
+    "networking_fundamentals": {
+      "label": "Networking Fundamentals",
+      "category": "networking",
+      "aliases": ["computer networks", "networking", "tcp/ip", "tcp ip", "http", "https", "dns", "network protocols", "osi model", "subnetting", "routing"]
+    },
+    "security_fundamentals": {
+      "label": "Security Fundamentals",
+      "category": "cybersecurity",
+      "aliases": ["information security", "cybersecurity basics", "cia triad", "infosec", "security concepts", "owasp", "secure coding"]
+    },
+    "vulnerability_assessment": {
+      "label": "Vulnerability Assessment",
+      "category": "cybersecurity",
+      "aliases": ["vulnerability scanning", "penetration testing basics", "pen testing", "vapt", "security scanning", "nmap", "nessus"]
+    },
+    "incident_response": {
+      "label": "Incident Response",
+      "category": "cybersecurity",
+      "aliases": ["security incident response", "ir", "forensics basics", "digital forensics", "soc operations"]
+    },
+    "siem_tools": {
+      "label": "SIEM Tools",
+      "category": "cybersecurity",
+      "aliases": ["splunk", "ibm qradar", "arcsight", "elastic siem", "microsoft sentinel", "security information event management"]
+    },
+    "ethical_hacking_basics": {
+      "label": "Ethical Hacking",
+      "category": "cybersecurity",
+      "aliases": ["ethical hacking", "penetration testing", "pen testing", "ceh", "kali linux", "burp suite", "metasploit"]
+    },
+    "cryptography_basics": {
+      "label": "Cryptography Basics",
+      "category": "cybersecurity",
+      "aliases": ["cryptography", "encryption", "decryption", "hashing", "ssl tls", "public key infrastructure", "pki"]
+    },
+    "firewall_configuration": {
+      "label": "Firewall Configuration",
+      "category": "cybersecurity",
+      "aliases": ["firewalls", "network security", "iptables", "pfSense", "access control lists", "acl"]
+    },
+    "rest_api": {
+      "label": "REST APIs",
+      "category": "web_backend",
+      "aliases": ["restful api", "rest", "api development", "web services", "http api", "api design", "graphql", "api integration", "web api", "restful services", "fastapi", "flask", "django rest framework", "express js"]
+    },
+    "object_oriented_programming": {
+      "label": "Object-Oriented Programming",
+      "category": "programming_concepts",
+      "aliases": ["oop", "object oriented", "classes and objects", "inheritance", "polymorphism", "encapsulation", "abstraction", "oops"]
+    },
+    "data_structures": {
+      "label": "Data Structures",
+      "category": "programming_concepts",
+      "aliases": ["arrays", "linked lists", "trees", "graphs", "hash tables", "stacks", "queues", "data structures and algorithms", "dsa"]
+    },
+    "algorithms": {
+      "label": "Algorithms",
+      "category": "programming_concepts",
+      "aliases": ["sorting", "searching", "dynamic programming", "dp", "greedy algorithms", "graph algorithms", "recursion", "complexity analysis", "big o notation", "dsa", "data structures and algorithms"]
+    },
+    "design_patterns": {
+      "label": "Design Patterns",
+      "category": "programming_concepts",
+      "aliases": ["software design patterns", "gang of four", "singleton", "factory pattern", "mvc", "mvvm", "solid principles", "clean code"]
+    },
+    "unit_testing": {
+      "label": "Unit Testing",
+      "category": "software_quality",
+      "aliases": ["testing", "pytest", "unittest", "junit", "jest", "mocha", "test-driven development", "tdd", "automated testing", "software testing", "test cases", "test automation"]
+    },
+    "authentication_authorization": {
+      "label": "Authentication & Authorization",
+      "category": "web_backend",
+      "aliases": ["auth", "jwt", "json web token", "oauth", "oauth2", "session management", "cookies", "user authentication", "rbac", "role-based access control", "login system"]
+    },
+    "caching": {
+      "label": "Caching",
+      "category": "web_backend",
+      "aliases": ["redis", "memcached", "cache", "caching strategies", "in-memory cache"]
+    },
+    "agile_scrum": {
+      "label": "Agile / Scrum",
+      "category": "methodology",
+      "aliases": ["agile", "scrum", "agile methodology", "scrum methodology", "kanban", "sprint planning", "jira", "agile development"]
+    },
+    "monitoring_observability": {
+      "label": "Monitoring & Observability",
+      "category": "devops",
+      "aliases": ["prometheus", "grafana", "datadog", "elk stack", "logging", "log analysis", "metrics", "alerting", "observability"]
+    },
+    "jupyter_notebook": {
+      "label": "Jupyter Notebook",
+      "category": "data_science",
+      "aliases": ["jupyter", "ipython notebook", "jupyter lab", "jupyterlab", "colab", "google colab", "notebook"]
+    },
+    "browser_dev_tools": {
+      "label": "Browser Developer Tools",
+      "category": "web_frontend",
+      "aliases": ["chrome devtools", "browser devtools", "developer tools", "inspector", "debugging browser"]
+    },
+    "accessibility": {
+      "label": "Web Accessibility",
+      "category": "web_frontend",
+      "aliases": ["a11y", "wcag", "aria", "screen reader", "accessible design", "web accessibility"]
+    },
+    "machine_learning_basics": {
+      "label": "Machine Learning Basics",
+      "category": "machine_learning",
+      "aliases": ["intro to ml", "ml basics", "machine learning fundamentals", "basic ml"]
+    }
+  }
+}

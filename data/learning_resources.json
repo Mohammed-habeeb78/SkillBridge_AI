@@ -1,0 +1,182 @@
+{
+  "version": "1.0",
+  "description": "Curated learning resources mapped to canonical skill IDs. All URLs verified at authoring time; check for availability before use.",
+  "resources": {
+    "python": [
+      {"title": "Python Official Tutorial", "url": "https://docs.python.org/3/tutorial/", "platform": "Official Docs", "level": "beginner", "type": "documentation", "duration_hours": 10},
+      {"title": "Python for Everybody (Coursera – Audit Free)", "url": "https://www.coursera.org/specializations/python", "platform": "Coursera", "level": "beginner", "type": "course", "duration_hours": 40},
+      {"title": "freeCodeCamp Python Full Course", "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/", "platform": "freeCodeCamp", "level": "beginner", "type": "course", "duration_hours": 20},
+      {"title": "IBM SkillsBuild – Python for Data Science", "url": "https://skillsbuild.org/learn", "platform": "IBM SkillsBuild", "level": "beginner", "type": "course", "duration_hours": 12}
+    ],
+    "sql": [
+      {"title": "SQLZoo Interactive SQL Tutorial", "url": "https://sqlzoo.net/", "platform": "SQLZoo", "level": "beginner", "type": "interactive", "duration_hours": 8},
+      {"title": "Mode SQL Tutorial", "url": "https://mode.com/sql-tutorial/", "platform": "Mode Analytics", "level": "beginner", "type": "tutorial", "duration_hours": 6},
+      {"title": "freeCodeCamp Relational Database Certification", "url": "https://www.freecodecamp.org/learn/relational-database/", "platform": "freeCodeCamp", "level": "beginner", "type": "course", "duration_hours": 25}
+    ],
+    "data_structures": [
+      {"title": "CS50 Introduction to Computer Science", "url": "https://cs50.harvard.edu/x/", "platform": "Harvard / edX", "level": "beginner", "type": "course", "duration_hours": 30},
+      {"title": "GeeksForGeeks Data Structures", "url": "https://www.geeksforgeeks.org/data-structures/", "platform": "GeeksForGeeks", "level": "beginner", "type": "reference", "duration_hours": 15},
+      {"title": "NeetCode Roadmap (DSA patterns)", "url": "https://neetcode.io/roadmap", "platform": "NeetCode", "level": "intermediate", "type": "practice", "duration_hours": 40}
+    ],
+    "algorithms": [
+      {"title": "Introduction to Algorithms – MIT OpenCourseWare", "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/", "platform": "MIT OCW", "level": "intermediate", "type": "course", "duration_hours": 30},
+      {"title": "LeetCode Explore", "url": "https://leetcode.com/explore/", "platform": "LeetCode", "level": "intermediate", "type": "practice", "duration_hours": 20}
+    ],
+    "git": [
+      {"title": "Git Official Documentation", "url": "https://git-scm.com/doc", "platform": "Official Docs", "level": "beginner", "type": "documentation", "duration_hours": 4},
+      {"title": "GitHub Learning Lab", "url": "https://skills.github.com/", "platform": "GitHub", "level": "beginner", "type": "interactive", "duration_hours": 5},
+      {"title": "Atlassian Git Tutorials", "url": "https://www.atlassian.com/git/tutorials", "platform": "Atlassian", "level": "beginner", "type": "tutorial", "duration_hours": 3}
+    ],
+    "machine_learning": [
+      {"title": "Machine Learning Specialization – Andrew Ng (Coursera Audit)", "url": "https://www.coursera.org/specializations/machine-learning-introduction", "platform": "Coursera / DeepLearning.AI", "level": "beginner", "type": "course", "duration_hours": 60},
+      {"title": "Hands-On Machine Learning with Scikit-Learn – Book (O'Reilly)", "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/", "platform": "O'Reilly", "level": "intermediate", "type": "book", "duration_hours": 40},
+      {"title": "IBM SkillsBuild – Machine Learning", "url": "https://skillsbuild.org/learn", "platform": "IBM SkillsBuild", "level": "beginner", "type": "course", "duration_hours": 10}
+    ],
+    "scikit_learn": [
+      {"title": "Scikit-learn Official User Guide", "url": "https://scikit-learn.org/stable/user_guide.html", "platform": "Official Docs", "level": "intermediate", "type": "documentation", "duration_hours": 10},
+      {"title": "Kaggle Intro to Machine Learning", "url": "https://www.kaggle.com/learn/intro-to-machine-learning", "platform": "Kaggle", "level": "beginner", "type": "course", "duration_hours": 5}
+    ],
+    "pandas": [
+      {"title": "Pandas Official Getting Started", "url": "https://pandas.pydata.org/docs/getting_started/index.html", "platform": "Official Docs", "level": "beginner", "type": "documentation", "duration_hours": 6},
+      {"title": "Kaggle Pandas Course", "url": "https://www.kaggle.com/learn/pandas", "platform": "Kaggle", "level": "beginner", "type": "course", "duration_hours": 4}
+    ],
+    "numpy": [
+      {"title": "NumPy Official Tutorials", "url": "https://numpy.org/learn/", "platform": "Official Docs", "level": "beginner", "type": "documentation", "duration_hours": 5},
+      {"title": "freeCodeCamp NumPy Tutorial", "url": "https://www.freecodecamp.org/news/numpy-full-python-tutorial/", "platform": "freeCodeCamp", "level": "beginner", "type": "tutorial", "duration_hours": 3}
+    ],
+    "statistics": [
+      {"title": "Khan Academy Statistics and Probability", "url": "https://www.khanacademy.org/math/statistics-probability", "platform": "Khan Academy", "level": "beginner", "type": "course", "duration_hours": 15},
+      {"title": "StatQuest with Josh Starmer (YouTube)", "url": "https://www.youtube.com/@statquest", "platform": "YouTube", "level": "beginner", "type": "video", "duration_hours": 10}
+    ],
+    "probability": [
+      {"title": "Khan Academy Probability", "url": "https://www.khanacademy.org/math/statistics-probability/probability-library", "platform": "Khan Academy", "level": "beginner", "type": "course", "duration_hours": 8}
+    ],
+    "deep_learning": [
+      {"title": "Deep Learning Specialization – Andrew Ng (Coursera Audit)", "url": "https://www.coursera.org/specializations/deep-learning", "platform": "Coursera / DeepLearning.AI", "level": "intermediate", "type": "course", "duration_hours": 80},
+      {"title": "fast.ai Practical Deep Learning", "url": "https://www.fast.ai/", "platform": "fast.ai", "level": "intermediate", "type": "course", "duration_hours": 30}
+    ],
+    "natural_language_processing": [
+      {"title": "Hugging Face NLP Course", "url": "https://huggingface.co/learn/nlp-course", "platform": "Hugging Face", "level": "intermediate", "type": "course", "duration_hours": 20},
+      {"title": "spaCy Course", "url": "https://course.spacy.io/", "platform": "spaCy", "level": "beginner", "type": "course", "duration_hours": 6}
+    ],
+    "data_visualization": [
+      {"title": "Kaggle Data Visualization Course", "url": "https://www.kaggle.com/learn/data-visualization", "platform": "Kaggle", "level": "beginner", "type": "course", "duration_hours": 4},
+      {"title": "Plotly Documentation", "url": "https://plotly.com/python/", "platform": "Official Docs", "level": "beginner", "type": "documentation", "duration_hours": 5}
+    ],
+    "html": [
+      {"title": "MDN HTML Basics", "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML", "platform": "MDN Web Docs", "level": "beginner", "type": "documentation", "duration_hours": 8},
+      {"title": "freeCodeCamp Responsive Web Design Certification", "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/", "platform": "freeCodeCamp", "level": "beginner", "type": "course", "duration_hours": 20}
+    ],
+    "css": [
+      {"title": "MDN CSS Basics", "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS", "platform": "MDN Web Docs", "level": "beginner", "type": "documentation", "duration_hours": 8},
+      {"title": "freeCodeCamp Responsive Web Design Certification", "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/", "platform": "freeCodeCamp", "level": "beginner", "type": "course", "duration_hours": 20}
+    ],
+    "javascript": [
+      {"title": "MDN JavaScript Guide", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide", "platform": "MDN Web Docs", "level": "beginner", "type": "documentation", "duration_hours": 12},
+      {"title": "freeCodeCamp JavaScript Algorithms & Data Structures", "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/", "platform": "freeCodeCamp", "level": "beginner", "type": "course", "duration_hours": 25},
+      {"title": "The Odin Project – Foundations", "url": "https://www.theodinproject.com/paths/foundations", "platform": "The Odin Project", "level": "beginner", "type": "course", "duration_hours": 60}
+    ],
+    "react": [
+      {"title": "React Official Documentation", "url": "https://react.dev/learn", "platform": "Official Docs", "level": "intermediate", "type": "documentation", "duration_hours": 10},
+      {"title": "freeCodeCamp Front End Development Libraries", "url": "https://www.freecodecamp.org/learn/front-end-development-libraries/", "platform": "freeCodeCamp", "level": "intermediate", "type": "course", "duration_hours": 15}
+    ],
+    "docker": [
+      {"title": "Docker Official Getting Started", "url": "https://docs.docker.com/get-started/", "platform": "Official Docs", "level": "beginner", "type": "documentation", "duration_hours": 5},
+      {"title": "Play with Docker (Interactive)", "url": "https://training.play-with-docker.com/", "platform": "Docker", "level": "beginner", "type": "interactive", "duration_hours": 4}
+    ],
+    "git": [
+      {"title": "Pro Git Book (Free Online)", "url": "https://git-scm.com/book", "platform": "Official Docs", "level": "beginner", "type": "book", "duration_hours": 6}
+    ],
+    "rest_api": [
+      {"title": "REST API Tutorial", "url": "https://restfulapi.net/", "platform": "RESTfulAPI.net", "level": "beginner", "type": "tutorial", "duration_hours": 4},
+      {"title": "FastAPI Official Tutorial", "url": "https://fastapi.tiangolo.com/tutorial/", "platform": "Official Docs", "level": "beginner", "type": "documentation", "duration_hours": 6}
+    ],
+    "linux_basics": [
+      {"title": "The Linux Command Line (Free Book)", "url": "https://linuxcommand.org/tlcl.php", "platform": "William Shotts", "level": "beginner", "type": "book", "duration_hours": 10},
+      {"title": "OverTheWire Bandit (Linux CTF)", "url": "https://overthewire.org/wargames/bandit/", "platform": "OverTheWire", "level": "beginner", "type": "interactive", "duration_hours": 6}
+    ],
+    "networking_fundamentals": [
+      {"title": "Computer Networking – A Top-Down Approach (free lectures)", "url": "https://gaia.cs.umass.edu/kurose_ross/index.php", "platform": "UMass", "level": "intermediate", "type": "course", "duration_hours": 20},
+      {"title": "Cisco Networking Academy – Introduction to Networks", "url": "https://www.netacad.com/courses/networking", "platform": "Cisco NetAcad", "level": "beginner", "type": "course", "duration_hours": 20}
+    ],
+    "security_fundamentals": [
+      {"title": "IBM SkillsBuild – Cybersecurity Fundamentals", "url": "https://skillsbuild.org/learn", "platform": "IBM SkillsBuild", "level": "beginner", "type": "course", "duration_hours": 6},
+      {"title": "Cybersecurity Essentials – Cisco NetAcad", "url": "https://www.netacad.com/courses/cybersecurity", "platform": "Cisco NetAcad", "level": "beginner", "type": "course", "duration_hours": 15}
+    ],
+    "vulnerability_assessment": [
+      {"title": "OWASP Testing Guide", "url": "https://owasp.org/www-project-web-security-testing-guide/", "platform": "OWASP", "level": "intermediate", "type": "documentation", "duration_hours": 8},
+      {"title": "TryHackMe – Pre-Security Path", "url": "https://tryhackme.com/path/outline/presecurity", "platform": "TryHackMe", "level": "beginner", "type": "interactive", "duration_hours": 20}
+    ],
+    "ethical_hacking_basics": [
+      {"title": "TryHackMe – Jr Penetration Tester Path", "url": "https://tryhackme.com/path/outline/jrpenetrationtester", "platform": "TryHackMe", "level": "intermediate", "type": "interactive", "duration_hours": 50}
+    ],
+    "cloud_basics": [
+      {"title": "AWS Cloud Practitioner Essentials (Free)", "url": "https://explore.skillbuilder.aws/learn/course/134/aws-cloud-practitioner-essentials", "platform": "AWS Skill Builder", "level": "beginner", "type": "course", "duration_hours": 6},
+      {"title": "IBM SkillsBuild – Cloud Computing", "url": "https://skillsbuild.org/learn", "platform": "IBM SkillsBuild", "level": "beginner", "type": "course", "duration_hours": 5},
+      {"title": "Google Cloud Skills Boost – Free Tier", "url": "https://cloudskillsboost.google/", "platform": "Google Cloud", "level": "beginner", "type": "interactive", "duration_hours": 10}
+    ],
+    "ci_cd": [
+      {"title": "GitHub Actions Official Docs", "url": "https://docs.github.com/en/actions", "platform": "GitHub", "level": "beginner", "type": "documentation", "duration_hours": 5}
+    ],
+    "infrastructure_as_code": [
+      {"title": "Terraform Getting Started – Official", "url": "https://developer.hashicorp.com/terraform/tutorials/aws-get-started", "platform": "HashiCorp", "level": "beginner", "type": "tutorial", "duration_hours": 8}
+    ],
+    "kubernetes": [
+      {"title": "Kubernetes Official Tutorials", "url": "https://kubernetes.io/docs/tutorials/", "platform": "Official Docs", "level": "intermediate", "type": "documentation", "duration_hours": 10}
+    ],
+    "object_oriented_programming": [
+      {"title": "Real Python – OOP in Python", "url": "https://realpython.com/python3-object-oriented-programming/", "platform": "Real Python", "level": "beginner", "type": "tutorial", "duration_hours": 4}
+    ],
+    "design_patterns": [
+      {"title": "Refactoring Guru – Design Patterns", "url": "https://refactoring.guru/design-patterns", "platform": "Refactoring Guru", "level": "intermediate", "type": "reference", "duration_hours": 8}
+    ],
+    "unit_testing": [
+      {"title": "pytest Official Documentation", "url": "https://docs.pytest.org/en/stable/", "platform": "Official Docs", "level": "beginner", "type": "documentation", "duration_hours": 4},
+      {"title": "Real Python – Testing in Python", "url": "https://realpython.com/python-testing/", "platform": "Real Python", "level": "beginner", "type": "tutorial", "duration_hours": 3}
+    ],
+    "authentication_authorization": [
+      {"title": "OWASP Authentication Cheat Sheet", "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html", "platform": "OWASP", "level": "beginner", "type": "reference", "duration_hours": 2}
+    ],
+    "excel": [
+      {"title": "Microsoft Excel Training (Free)", "url": "https://support.microsoft.com/en-us/office/excel-training-9bc05390-e94c-46af-a5b3-d7c22f6990bb", "platform": "Microsoft", "level": "beginner", "type": "course", "duration_hours": 5}
+    ],
+    "power_bi": [
+      {"title": "Microsoft Power BI Learning Path", "url": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi", "platform": "Microsoft Learn", "level": "beginner", "type": "course", "duration_hours": 8}
+    ],
+    "feature_engineering": [
+      {"title": "Kaggle Feature Engineering Course", "url": "https://www.kaggle.com/learn/feature-engineering", "platform": "Kaggle", "level": "intermediate", "type": "course", "duration_hours": 5}
+    ],
+    "data_cleaning": [
+      {"title": "Kaggle Data Cleaning Course", "url": "https://www.kaggle.com/learn/data-cleaning", "platform": "Kaggle", "level": "beginner", "type": "course", "duration_hours": 4}
+    ]
+  },
+  "mini_projects": {
+    "python": "Build a CLI todo-list application with file persistence.",
+    "sql": "Create a SQLite database for a library catalogue; write 10 analytical queries.",
+    "data_structures": "Implement a linked list and binary search tree from scratch in Python.",
+    "algorithms": "Solve 20 LeetCode Easy problems covering sorting, searching, and dynamic programming.",
+    "machine_learning": "Train a classification model on the Iris or Titanic dataset; evaluate with cross-validation.",
+    "pandas": "Perform an end-to-end exploratory data analysis on a Kaggle CSV dataset.",
+    "numpy": "Implement matrix operations (multiply, transpose, eigenvalues) without using built-in shortcuts.",
+    "data_visualization": "Create an interactive dashboard with Plotly showing trends in a public dataset.",
+    "statistics": "Conduct a hypothesis test on a real dataset and write up findings in a Jupyter Notebook.",
+    "deep_learning": "Train a CNN on CIFAR-10 or Fashion-MNIST; compare accuracy across hyperparameters.",
+    "natural_language_processing": "Build a sentiment classifier on a movie-review dataset using TF-IDF and Logistic Regression.",
+    "html": "Build a personal portfolio website using only HTML and CSS.",
+    "css": "Recreate a well-known website's homepage layout using CSS Flexbox and Grid.",
+    "javascript": "Build a vanilla JS to-do app with local-storage persistence.",
+    "react": "Build a weather-checking React app that consumes a public weather API.",
+    "git": "Set up a Git workflow: feature branch → PR → merge on a small project; write a meaningful commit history.",
+    "docker": "Containerize a Python Flask app and run it with Docker Compose.",
+    "rest_api": "Design and implement a REST API for a task management system using FastAPI or Flask.",
+    "linux_basics": "Complete OverTheWire Bandit levels 0–15; document the commands used.",
+    "networking_fundamentals": "Use Wireshark to capture and analyse HTTP and DNS traffic on a home network.",
+    "security_fundamentals": "Complete a TryHackMe room covering the CIA triad and basic attack/defense concepts.",
+    "cloud_basics": "Deploy a static website on AWS S3 or Google Cloud Storage using the free tier.",
+    "ci_cd": "Create a GitHub Actions workflow that runs pytest on every push to a Python repository.",
+    "kubernetes": "Deploy a simple containerized application on a local Minikube cluster.",
+    "feature_engineering": "Engineer features for a Kaggle competition and compare model performance before and after.",
+    "data_cleaning": "Download a messy open dataset; document and fix all data quality issues using pandas.",
+    "unit_testing": "Write a full pytest test suite for a small Python module including edge cases."
+  }
+}
